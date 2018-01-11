@@ -1,0 +1,87 @@
+@import "../../../../common/styles/media.less";
+@import "../../../../common/styles/variables.less";
+
+@c: .MortgageSubsidiesContainer;
+
+@{c}{
+  padding-top: 60px;
+  padding-bottom: 115px;
+
+  &-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
+  &-accordion {
+    padding-bottom: 145px;
+  }
+
+  &-contacts {
+    p {
+      .labR;
+      font-size: 14px;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: 24px;
+    }
+  }
+
+  .ObjectCard {
+    &-title {
+      margin-bottom: 26px;
+      font-size: 18px;
+      color: #333333;
+      letter-spacing: 0;
+    }
+  }
+}
+
+@media @laptop {
+  @{c} {
+    padding-top: 48px;
+    padding-bottom: 92px;
+
+    &-accordion {
+      padding-bottom: 95px;
+    }
+  }
+}
+
+@media @mobile {
+  @{c} {
+    padding-top: 45px;
+    padding-bottom: 50px;
+
+    &-accordion {
+      padding-bottom: 33px;
+    }
+
+    &-wrapper {
+      max-width: 100%;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+    .ObjectCard {
+      &-title {
+        .labR;
+        font-size: 16px;
+        color: #333333;
+        letter-spacing: 0;
+      }
+    }
+    &-contacts {
+     p {
+       .labR;
+       font-size: 14px;
+       color: #000000;
+       letter-spacing: 0;
+       line-height: 24px;
+       &:first-child {
+         width: 180px;
+         margin-bottom: 7px;
+       }
+     }
+    }
+  }
+}

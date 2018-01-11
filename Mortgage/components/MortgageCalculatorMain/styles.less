@@ -1,0 +1,362 @@
+@import "../../../../common/styles/media.less";
+@import "../../../../common/styles/variables.less";
+
+@c: .MortgageCalculatorMain;
+
+@{c} {
+  width: 100%;
+  height: 418px;
+  background: url("//1.db-estate.cdn.pik-service.ru/attachment_pikru/0/0badc0dc-9c59-11e6-8483-001ec9d8c6a2/ipoteka-img_15b200dd79afec523757c1d6a0d2f855.jpg") no-repeat 70% #E8ECEF;
+  background-size: contain;
+  display: flex;
+
+  &-images {
+    display: none;
+  }
+
+  &-wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 4.5em auto 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px;
+  }
+
+  &-calculator {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  &-search {
+    position: absolute;
+    background: #E2E6E8;
+    border-radius: 4px;
+    height: 54px;
+    padding: 0 20px;
+    width: auto;
+    .labR;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    right: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+
+    &--active {
+      background: #6E8490;
+      cursor: pointer;
+      pointer-events: auto;
+    }
+  }
+
+  &-searchWrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &-inputContainer {
+    box-sizing: border-box;
+    width: 33.3%;
+    background: #FFFFFF;
+    border: 1px solid #E2E6E8;
+    position: relative;
+    display: flex;
+    align-items: center;
+    &:before {
+      content: '₽';
+      position: absolute;
+      right: 19px;
+      bottom: 15px;
+      .labL;
+      font-size: 24px;
+      color: #E2E6E8;
+      letter-spacing: 0;
+    }
+
+    &:first-child {
+      border-radius: 8px 0 0 8px;
+      overflow: hidden;
+      @{c} {
+        &-input {
+          padding-right: 45px;
+          box-sizing: border-box;
+        }
+      }
+
+    }
+    &:nth-child(2) {
+      border-left: none;
+      border-right: none;
+      overflow: hidden;
+    }
+
+    &:nth-child(3) {
+      border-radius: 0 8px 8px 0;
+      overflow: hidden;
+      @{c} {
+        &-input {
+          width: 100px;
+        }
+      }
+      &:before {
+        content: none;
+      }
+    }
+  }
+
+  &-description {
+    position: absolute;
+    top: 17px;
+    left: 19px;
+    .labM;
+    font-size: 11px;
+    color: #484848;
+    letter-spacing: 1px;
+  }
+
+  &-input {
+    width: 100%;
+    border: none;
+    .labL;
+    font-size: 22px;
+    color: #333;
+    letter-spacing: 0;
+    padding-left: 19px;
+    padding-top: 23px;
+    &::-webkit-input-placeholder {
+      color: #cacaca;
+    }
+    &::-moz-placeholder {
+      color: #cacaca;
+    }
+    &:-moz-placeholder {
+      color: #cacaca;
+    }
+    &:-ms-input-placeholder {
+      color: #cacaca;
+    }
+  }
+  &-subtitle {
+    opacity: 0.7;
+    .labM;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #484848;
+    letter-spacing: 2px;
+    margin-bottom: 13px;
+  }
+  &-title {
+    .labL;
+    font-size: 38px;
+    color: #484848;
+    letter-spacing: 0;
+    margin-bottom: 37px;
+  }
+  &-military {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    > span {
+      margin: 0 5px 0 10px;
+      text-transform: uppercase;
+      .labM;
+      font-size: 12px;
+      color: #333333;
+      letter-spacing: 1px;
+
+    }
+    svg {
+      cursor: pointer;
+    }
+  }
+
+  &-question {
+    border-radius: 80px;
+    &--red {
+      rect {
+        fill: #F34C10;
+        fill-opacity: 1;
+      }
+      path {
+        fill: #fff;
+      }
+    }
+  }
+  &-switch {
+    height: 20px;
+    width: 40px;
+    cursor: pointer;
+    background: #484848;
+    border-radius: 100px;
+    transition: background-color 0.4s linear;
+    &--red {
+      transition: background-color 0.4s linear;
+      background-color: #F34C10;
+    }
+    &--round {
+      position: absolute;
+      background: #FFFFFF;
+      border-radius: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 16px;
+      width: 16px;
+      margin-bottom: 10px;
+      transform: translate(2px, -8px);
+      transition: transform 0.4s ease;
+    }
+
+    &--roundMove {
+      transform: translate(21px, -8px);
+      transition: transform 0.4s ease;
+    }
+  }
+}
+
+@media @laptop {
+  @{c} {
+    height: 376px;
+    flex-direction: column;
+    justify-content: center;
+
+    &-wrapper {
+      max-width: initial;
+      width: initial;
+      margin: 0;
+    }
+
+    &-subtitle {
+      font-size: 10px;
+      margin-bottom: 17px;
+    }
+
+    &-title {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    &-calculator {
+      height: 64px;
+    }
+
+    &-search {
+      height: 46px;
+      background: #f34c10;
+      font-size: 11px;
+    }
+
+    &-description {
+      font-size: 10px;
+      top: 16px;
+      left: 16px;
+    }
+
+    &-input {
+      font-size: 16px;
+      padding-left: 16px;
+      padding-top: 33px;
+      padding-bottom: 12px;
+    }
+
+    &-inputContainer:before {
+      font-size: 16px;
+      top: 33px;
+      right: 11px;
+    }
+
+    &-images {
+      display: none;
+    }
+
+  }
+}
+
+
+@media @mobile {
+  @{c} {
+    flex-direction: column;
+    height: auto;
+    background: #E8ECEF;
+
+    &-wrapper {
+      padding: 0 20px;
+      text-align: center;
+      width: auto;
+      max-width: 960px;
+      margin: 0;
+    }
+
+    &-subtitle {
+      margin-top: 27px;
+      font-size: 9px;
+      margin-bottom: 0;
+    }
+
+    &-title {
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    &-images {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+    }
+
+    &-calculator {
+      flex-direction: column;
+      height: auto;
+      box-shadow: none;
+    }
+
+    &-inputContainer {
+      width: 100%;
+      border-radius: 4px !important;
+      margin-bottom: 10px;
+      &:before {
+        content: none;
+      }
+    }
+
+    &-input {
+      width: 100%;
+      padding: 27px 0 6px 15px;
+    }
+
+    &-description {
+      font-size: 9px;
+      top: 12px;
+      left: 15px;
+    }
+
+    &-military {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      &-tooltip {
+        display: none;
+      }
+    }
+
+    &-search {
+      position: static;
+      width: 100%;
+      height: 50px;
+      font-size: 16px;
+      background: #6e8490;
+      transform: translateY(0);
+    }
+
+    &-searchWrapper {
+      margin-bottom: 30px;
+    }
+
+  }
+}

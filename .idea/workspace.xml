@@ -2,27 +2,139 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58089758-12fd-4c7f-b52d-e6ed0e8a55fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CommercialBlockPage/Page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CommercialBlockPage/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CommercialBlockPage/pageFetchServer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CommercialBlockPage/styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Header/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Header/styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Popup/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Popup/styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PopupDropDown/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PopupDropDown/styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/Filter/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/Filter/styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/IconFilter/Select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/IconFilter/close.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/IconFilter/metro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/LocationInput/county.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/LocationInput/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/LocationInput/locationData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/SelectFilter/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/ValueInput/index.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Filter/actions/getInitData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Filter/actions/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Filter/components/Filter/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Filter/components/FilterMobile/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Filter/components/FilterMobile/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Filter/components/HandingInput/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Filter/components/LocationInput/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Filter/components/PriceInput/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Filter/components/icons/CloseMobile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Filter/constants.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Filter/reducers.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Geo/actions/fetchLocations.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Geo/actions/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Geo/components/ChangeRegion/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Geo/components/ChangeRegion/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Geo/components/YandexApi/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Geo/constants.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Geo/reducers.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Geo/utils/getDefaultCoordinates.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Geo/utils/sunsetCalc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/actions/fetchMortgageBlocksById.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/actions/fetchMortgageById.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/actions/fetchMortgageFiltered.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/actions/fetchMortgagePartners.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/actions/fetchMortgageSubsidies.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/actions/fetchSmsRequest.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/actions/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/actions/sendUserData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/actions/utils/calculateMortgageSum.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/actions/utils/filteringMortgage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/actions/utils/getInitValues.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/ApplicationMortgage/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/ApplicationMortgage/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/BankAccordion/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/BankAccordion/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/CodeApprove/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/CodeApprove/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/ConditionsCredit/data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/ConditionsCredit/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/ConditionsCredit/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/DocumentAccordion/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/DocumentAccordion/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/Feature/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/Feature/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/FieldMortgage/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/FieldMortgage/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/FieldMortgage/utils/validator.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/LendingOptions/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/LendingOptions/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageAboutContainer/documentsData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageAboutContainer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageAboutContainer/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageCalculator/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageCalculator/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageCalculatorMain/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageCalculatorMain/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageExpressContainer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageExpressContainer/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageHeader/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageHeader/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageLegislationContainer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageLegislationContainer/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgagePartnersContainer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgagePartnersContainer/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgagePartnersProgramContainer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgagePartnersProgramContainer/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageProgramBanner/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageProgramBanner/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageSubsidiesContainer/documentsData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageSubsidiesContainer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageSubsidiesContainer/objectData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageSubsidiesContainer/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/MortgageSwitchContainer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/ObjectCard/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/ObjectCard/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/OthersProgram/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/OthersProgram/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/Outline/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/Outline/outlineData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/Outline/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/Partners/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/Partners/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/Program/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/Program/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/SelectedPrograms/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/SelectedPrograms/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/SimplyMakeUp/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/SimplyMakeUp/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/SliderInput/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/SliderInput/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/UserData/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/UserData/styles.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/icon/Back.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/icon/Book.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/icon/Open.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/icon/Passport.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/icon/Pdf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/icon/Reference.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/components/icon/Ticket.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/constants.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Mortgage/reducers.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Commerce/BlockPage/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Commerce/BlockPage/styles.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Commerce/CommercialBlockPage/Page.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Commerce/CommercialBlockPage/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Commerce/CommercialBlockPage/pageFetchServer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Commerce/CommercialBlockPage/styles.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Commerce/Header/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Commerce/Header/styles.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Commerce/Popup/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Commerce/Popup/styles.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Commerce/PopupDropDown/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Commerce/PopupDropDown/styles.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Footer/dataFooter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Footer/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Footer/styles.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/ReservationPage/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ReservationPage/styles.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/StatusDealPage/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/StatusDealPage/styles.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/filter/Filter/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/filter/Filter/styles.less" afterPath="$PROJECT_DIR$/Filter/components/Filter/styles.less" />
+      <change beforePath="$PROJECT_DIR$/filter/IconFilter/Select.js" afterPath="$PROJECT_DIR$/Filter/components/icons/Select.js" />
+      <change beforePath="$PROJECT_DIR$/filter/IconFilter/close.js" afterPath="$PROJECT_DIR$/Filter/components/icons/close.js" />
+      <change beforePath="$PROJECT_DIR$/filter/IconFilter/metro.js" afterPath="$PROJECT_DIR$/Filter/components/icons/metro.js" />
+      <change beforePath="$PROJECT_DIR$/filter/LocationInput/county.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/filter/LocationInput/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/filter/LocationInput/locationData.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/filter/SelectFilter/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/filter/ValueInput/index.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,37 +154,12 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="552">
-                <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-498">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fetchCurrentCommerceBlock.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fetchCurrentCommerceBlock.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="52">
+              <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -111,8 +198,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="width" value="2526" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -224,6 +311,17 @@
               <item name="reactcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="reactcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Mortgage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Mortgage" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -235,11 +333,15 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -256,6 +358,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="58089758-12fd-4c7f-b52d-e6ed0e8a55fc" name="Default" comment="" />
@@ -264,35 +369,38 @@
       <option name="presentableId" value="Default" />
       <updated>1504960246883</updated>
       <workItem from="1504960249902" duration="569000" />
+      <workItem from="1515674285585" duration="1373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="569000" />
+    <option name="totallyTimeSpent" value="1942000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="0" y="23" width="2526" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14251208" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19364598" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +420,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -320,13 +428,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetchCurrentCommerceBlock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ReservationPage/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4661">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -342,9 +470,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5703">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-664">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -356,24 +489,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/Commerce/BlockPage/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-498">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mortgage/components/ApplicationMortgage/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#90#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mortgage/actions/utils/getInitValues.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Filter/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mortgage/components/MortgageProgramBanner/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mortgage/components/ObjectCard/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mortgage/components/OthersProgram/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mortgage/components/Program/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-689">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mortgage/components/SliderInput/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3783">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mortgage/components/LendingOptions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="845">
+          <caret line="227" column="15" lean-forward="false" selection-start-line="227" selection-start-column="15" selection-end-line="227" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mortgage/components/MortgageCalculator/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mortgage/components/SimplyMakeUp/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mortgage/components/SelectedPrograms/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2933">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geo/utils/sunsetCalc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="552">
-            <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-            <folding />
-          </first_editor>
-          <second_editor />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>

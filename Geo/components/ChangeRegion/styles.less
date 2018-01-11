@@ -1,0 +1,72 @@
+@import "../../../../common/styles/media.less";
+@import "../../../../common/styles/variables.less";
+
+@c: .ChangeRegion;
+
+@{c} {
+  &-hide {
+    display: none;
+  }
+  height: 40px;
+  position: relative;
+  svg {
+    position: absolute;
+    &:first-child {
+      top: 50%;
+      left: 20px;
+      transform: translateY(-50%);
+    }
+    &:nth-child(2) {
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+    }
+  }
+  .SelectLink {
+    z-index: 1;
+    padding: 14px 20px 15px 35px;
+    box-sizing: border-box;
+    border: 1px solid #E2E6E8;
+    border-radius: 4px;
+    height: 40px;
+    width: 160px;
+
+    .Select {
+      top: -7px;
+      position: relative;
+      left: -36px;
+      height: 40px;
+    }
+
+    &-text {
+      .labR;
+      font-size: 11px;
+      color: #484848;
+      letter-spacing: 0;
+    }
+    &-selectWrapper {
+      position: relative;
+      top: -26px;
+    }
+    .ArrowMini {
+      display: none;
+    }
+  }
+}
+
+@media @mobile {
+  @{c} {
+    .SelectLink {
+      .Select {
+        top: 0 !important;
+        left: 0;
+        height: 58px;
+      }
+
+      &-selectWrapper {
+        top: 0 !important;
+      }
+    }
+  }
+}
+

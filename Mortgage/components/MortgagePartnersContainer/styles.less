@@ -1,0 +1,124 @@
+@import "../../../../common/styles/media.less";
+@import "../../../../common/styles/variables.less";
+
+@c: .MortgagePartnersContainer;
+
+@{c}{
+  padding-top: 72px;
+  padding-bottom: 115px;
+
+  &-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 32px;
+    h2 {
+      .labM;
+      font-size: 38px;
+      color: #484848;
+      letter-spacing: 0;
+      line-height: 46px;
+    }
+  }
+
+  &-programs {
+    padding-top: 79px;
+    &-titleInside {
+      width: 51%;
+      display: flex;
+      justify-content: space-between;
+      span:last-child {
+        text-align: right;
+      }
+    }
+    &-titleWrapper {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    &-title {
+      display: flex;
+      span {
+        text-transform: uppercase;
+        .labM;
+        font-size: 11px;
+        color: #5A7788;
+        letter-spacing: 2px;
+        line-height: 50px;
+        text-align: center;
+        width: 42%;
+
+        &:first-child {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+@media @laptop {
+  @{c} {
+    padding-top: 55px;
+
+    &-wrapper {
+      > h2 {
+        font-size: 28px;
+        color: #333333;
+        line-height: 34px;
+      }
+    }
+
+    &-programs {
+      padding-top: 58px;
+      &-titleInside {
+        width: 60%;
+        span {
+          &:first-child {
+            width: 12%;
+          }
+          &:last-child {
+            text-align: left;
+            width: 61%;
+          }
+        }
+      }
+      &-title {
+        padding: 0 32px;
+        margin: 0 auto;
+        span {
+          width: 41%;
+        }
+      }
+    }
+  }
+}
+
+@media @mobile {
+  @{c} {
+    padding-top: 63px;
+    padding-bottom: 0;
+
+    &-wrapper {
+      max-width: 100%;
+      padding: 0 20px;
+      box-sizing: border-box;
+      h2 {
+        .labM;
+        font-size: 25px;
+        color: #333333;
+        letter-spacing: 0;
+      }
+    }
+
+    &-programs {
+      padding-top: 32px;
+      .BankAccordion:last-child {
+        .BankAccordion-container {
+          border-bottom: none;
+        }
+      }
+    }
+
+    &-programs-title {
+      display: none;
+    }
+  }
+}

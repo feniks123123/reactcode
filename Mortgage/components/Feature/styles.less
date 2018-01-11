@@ -1,0 +1,82 @@
+@import "../../../../common/styles/media.less";
+@import "../../../../common/styles/variables.less";
+
+@c: .Feature;
+
+@{c} {
+  &-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 32px;
+    justify-content: space-between;
+  }
+
+  &-images {
+    width: 50px;
+    height: 55px;
+    margin-right: 41px;
+    > svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &-text {
+    font-size: 24px;
+    color: #484848;
+    line-height: 30px;
+  }
+
+  &-column {
+    display: flex;
+    align-items: center;
+    max-width: 456px;
+    width: 50%;
+  }
+}
+
+@media @laptop {
+  @{c} {
+    &-images {
+      width: 34px;
+      height: 40px;
+      margin-right: 17px;
+    }
+
+    &-text {
+      line-height: 22px;
+      font-size: 18px;
+    }
+  }
+}
+
+@media @mobile {
+  @{c} {
+    &-container {
+      flex-direction: column;
+      padding: 0 20px;
+    }
+
+    &-images {
+      margin-right: 12px;
+      width: 40px;
+      height: 42px;
+    }
+
+    &-column {
+      width: 100%;
+      height: 80px;
+      max-width: 100%;
+      box-shadow: 0 -1px 0 0 #E2E6E8;
+      &:last-child {
+        border-bottom: 1px solid #E2E6E8;
+      }
+    }
+
+    &-text {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}

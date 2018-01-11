@@ -1,0 +1,63 @@
+@import "../../../../common/styles/variables.less";
+
+@c: .CodeApprove;
+
+@{c} {
+  &-text {
+    font-size: 18px;
+    color: #484848;
+    line-height: 27px;
+    text-align: center;
+    max-width: 575px;
+    margin: 0 auto 54px;
+  }
+
+  &-input {
+    border-radius: 8px;
+    background: #f7f8f9;
+    border: 1px solid #E7EAED;
+    .labL;
+    font-size: 24px;
+    color: #484848;
+    padding-left: 14px;
+    box-sizing: border-box;
+    max-width: 160px;
+    height: 80px;
+    &--focus {
+      background: #ffffff;
+    }
+  }
+
+  &-wrapper-input {
+    text-align: center;
+    margin-bottom: 58px;
+  }
+
+  &-timerWrapper {
+    color: #5a7788;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  &-wrapperCode {
+    position: relative;
+  }
+
+  &-error {
+    position: absolute;
+    text-align: center;
+    .fw3;
+    .fs12;
+    color: #EF4E23;
+    left: 0;
+    right: 0;
+    top: -45px;
+    opacity: 0;
+    visibility: hidden;
+    &--show {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
